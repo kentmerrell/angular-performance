@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+article {
+  border: 1px solid grey;
+  display: inline-block;
+  padding: 0.4rem;
+  margin: 1rem;
+}
+
+article > h2 {
+  color: red;
+  font-size: smaller;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.type-indicator {
+  font-size: smaller;
+}
+
+p {
+  font-size: smaller;
+  /* padding-bottom: 5px; */
+}
+
+input{
+  margin-top:1px;
+}
+
+.message{
+  font-weight: bold;
+}
