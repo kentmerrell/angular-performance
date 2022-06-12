@@ -8,14 +8,14 @@ import { Component, OnInit, DoCheck, ChangeDetectionStrategy } from '@angular/co
 })
 export class Type2Component implements OnInit, DoCheck {
  checkCount = 0
- message = "hello"
+ message = "child says hello"
   constructor() { }
 
   ngOnInit(): void {
   }
   ngDoCheck(): void {
     this.checkCount ++;
-    //console.log(`Type2Component checked ${Date.now()}`)
+    console.log(`Type2Component checked ${Date.now()}`)
   }
 
   updateMessage(e:any): void{

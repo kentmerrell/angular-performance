@@ -1,12 +1,14 @@
-import { Component, DoCheck, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, DoCheck, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-type1',
   templateUrl: './type1.component.html',
-  styleUrls: ['./type1.component.css']
+  styleUrls: ['./type1.component.css'],
+  changeDetection:ChangeDetectionStrategy.OnPush
 })
 export class Type1Component implements OnInit, DoCheck {
   checkCount = 0;
+  message = "parent says hello"
   constructor() { }
 
   ngOnInit(): void {
