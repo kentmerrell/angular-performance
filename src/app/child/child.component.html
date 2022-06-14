@@ -1,10 +1,10 @@
 <article>
   <h2>Child</h2>
   <p class="type-indicator"
-    >type2, ChangeDetection: OnPush</p
+    >Change Detection Strategy: OnPush</p
   >
   <p>
-    checkCount: <span class="check-count"> {{ checkCount }}</span>
+    checkCount: <span class="check-count"> {{ checkCountObj | json }}</span>
   </p>
   <p>
     message: <span class="message">{{ message }}</span>

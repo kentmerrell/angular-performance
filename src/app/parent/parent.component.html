@@ -1,7 +1,7 @@
 <article>
   <h2>Parent</h2>
   <p class="type-indicator"
-  >type1, ChangeDetection: OnPush</p
+  >Change Detection Strategy: OnPush</p
 >
 <p>
   checkCount: <span class="check-count"> {{ checkCount }}</span>
@@ -10,5 +10,5 @@
   message: <span class="message">{{ message }}</span>
 </p>
 <input type="text" [(ngModel)]="message" />
-<div><app-type2></app-type2> <app-type2></app-type2></div>
+<div><app-child></app-child> <app-child></app-child></div>
 </article>
