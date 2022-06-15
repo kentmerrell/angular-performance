@@ -1,34 +1,18 @@
+html{
+  font-family: Arial, Helvetica, sans-serif;
+}
 article {
+  vertical-align: top;
   border: 1px solid grey;
   display: inline-block;
-  padding: 0.4rem;
-  margin: 1rem;
+  padding: 10px;
+  margin: 60px 20px 5px ;
+  min-width:150px;
+  min-height: 60px;
 }
-
 article > h2 {
   color: red;
-  font-size: smaller;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
   margin-top: 0.2rem;
   margin-bottom: 0.2rem;
 }
-
-.type-indicator {
-  color: red;
-  font-size: xx-small;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-p {
-  font-size: smaller;
-  /* padding-bottom: 5px; */
-}
-
-input{
-  margin-top:1px;
-}
-
-.message, .check-count{
-  font-weight: bold;
-}
-

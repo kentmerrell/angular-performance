@@ -1,4 +1,9 @@
-<header>Angular Change Detection Example </header>
-
-
-<router-outlet></router-outlet>
+<app-parent>
+  <app-child>
+    <app-grandchild></app-grandchild>
+  </app-child>
+  <app-child></app-child>
+</app-parent>
+<app-uncle>
+  <app-cousin></app-cousin>
+</app-uncle>
