@@ -1,8 +1,5 @@
 import {
-  ChangeDetectionStrategy,
   Component,
-  DoCheck,
-  OnInit,
 } from '@angular/core';
 
 @Component({
@@ -13,10 +10,7 @@ import {
       <ng-content></ng-content>
     </article>
   `,
-  changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class ParentComponent implements OnInit {
+export class ParentComponent  {
   constructor() {}
-
-  ngOnInit(): void {}
 }
