@@ -7,19 +7,16 @@ import {
 
 @Component({
   selector: 'app-parent',
-  templateUrl: './parent.component.html',
-  styleUrls: ['./parent.component.css'],
+  template: `
+    <article>
+      <h2>Parent</h2>
+      <ng-content></ng-content>
+    </article>
+  `,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class ParentComponent implements OnInit {
-  checkCount = 0;
-  message = 'parent says hello';
   constructor() {}
 
   ngOnInit(): void {}
-
-  ngDoCheck(): void {
-    this.checkCount = this.checkCount + 1;
-    //console.log(`Type2Component checked ${Date.now()}`)
-  }
 }
