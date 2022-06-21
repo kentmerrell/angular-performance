@@ -10,5 +10,6 @@ import { Component } from '@angular/core';
   `,
 })
 export class CousinComponent {
+  msg = "Slayers, Waddup?"
   constructor() {}
 }

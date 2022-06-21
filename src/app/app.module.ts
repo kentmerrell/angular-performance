@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { ParentComponent } from './parent.component';
 import { ChildComponent } from './child.component';
+import { SiblingComponent } from './sibling.component';
 import { GrandchildComponent } from './grandchild.component';
 import { CousinComponent } from './cousin.component';
 import { UncleComponent } from './uncle.component';
@@ -16,6 +17,7 @@ import { UncleComponent } from './uncle.component';
     CousinComponent,
     GrandchildComponent,
     ParentComponent,
+    SiblingComponent,
     UncleComponent
   ],
   imports: [

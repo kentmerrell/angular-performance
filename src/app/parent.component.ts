@@ -12,5 +12,6 @@ import {
   `,
 })
 export class ParentComponent  {
+  msg = "Hey there!"
   constructor() {}
 }
