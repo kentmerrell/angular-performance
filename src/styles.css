@@ -1,13 +1,14 @@
 html{
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
 }
 article {
   vertical-align: top;
   border: 1px solid grey;
   display: inline-block;
   padding: 10px;
-  margin: 60px 20px 5px ;
-  min-width:150px;
+  margin: 25px 20px 5px ;
+  min-width:110px;
   min-height: 60px;
 }
 article > h2 {
@@ -15,4 +16,15 @@ article > h2 {
   font-size: 20px;
   margin-top: 0.2rem;
   margin-bottom: 0.2rem;
+}
+
+input {
+  max-width: 80px;
+}
+
+.value{
+  font-weight: bold;
+  font-size: larger;
+  margin: 2px 2px;
+  color:red;
 }
